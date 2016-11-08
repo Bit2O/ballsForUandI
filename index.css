@@ -1,13 +1,14 @@
-.rectangle {
-	border: 1px solid;
-	width: 1000px;
-	height: 500px;
-	margin: 0 auto;
+body {
+    text-align: center;
 }
-
-/*.ball {
-	border: 1px solid;
-	border-radius: 100px;
-	width: 100px;
-	height: 100px;
-}*/
+#canvas {
+    position: relative;
+    background-color: #ccddcc;
+    margin: 1em auto;
+}
+.ball {
+    background-color: black;
+    position: absolute;
+    display: inline-block;
+    border-radius: 50%;
+}

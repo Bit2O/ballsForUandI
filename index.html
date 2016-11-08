@@ -6,7 +6,11 @@
 </head>
 <body>
 	<h2>U&I Game challenge</h2>
-	<div onclick="newBall(event);" class="rectangle" id="rectangle"></div>
+	<input id="range-input" type="range" value="50" min="1" max="100" step="1" />
+	<span id="range">50%</span>
+	<button onclick="Ball.draw();">Play</button>
+	<button onclick="Ball.pause();">Pause</button>
+	<div onclick="newBall(event);" id="canvas"></div>
 	<script src="app.js"></script>
 </body>
 </html>
